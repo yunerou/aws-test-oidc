@@ -11,7 +11,7 @@ jobs:
       id-token: write
       contents: read
     steps:
-      - run: sleep 2
+      - run: sleep 1
 
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
